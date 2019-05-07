@@ -1,0 +1,34 @@
+{
+  "name": "modcal",
+  "version": "0.0.1",
+  "description": "ModCal is a modular calendar component which integrates with any type of application",
+  "main": "dist/modcal.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scssyworks/modcal.git"
+  },
+  "keywords": [
+    "calendar",
+    "datepicker",
+    "date",
+    "range",
+    "rangeselector",
+    "events"
+  ],
+  "author": "Sachin Singh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scssyworks/modcal/issues"
+  },
+  "homepage": "https://github.com/scssyworks/modcal#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
